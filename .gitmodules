@@ -4,3 +4,6 @@
 [submodule "njm_menu"]
 	path = njm_menu
 	url = https://github.com/neilm-fourjs/njm_menu.git
+[submodule "njm_demo_db"]
+	path = njm_demo_db
+	url = https://github.com/neilm-fourjs/njm_demo_db.git

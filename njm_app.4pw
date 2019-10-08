@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Project defaultApplication="1198904255_-615368558" gstVersion="31405" version="3.3">
+<Project defaultApplication="-2140202056_18736" gstVersion="31405" version="3.3">
   <Settings>
     <DynamicProperties version="2">
       <DynamicProperty description="Accent color (Android 5.0 and later)" initialValue="#9575CD" isDefaultInherited="false" isHidden="false" label="Accent color" name="gma-accent-color" readOnly="false" type="COLOR"/>
@@ -66,5 +66,7 @@
   <PlatformList version="1.0"/>
   <Group id="75644415" label="njm_app" language="Genero">
     <ExtProject filePath="g2_lib/g2_lib.4pw" id="1198904255"/>
+    <ExtProject filePath="njm_demo_db/njm_demo_db.4pw" id="-2140202056"/>
+    <ExtProject filePath="njm_menu/njm_menu.4pw" id="1842157672"/>
   </Group>
 </Project>

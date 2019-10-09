@@ -7,3 +7,6 @@
 [submodule "njm_demo_db"]
 	path = njm_demo_db
 	url = https://github.com/neilm-fourjs/njm_demo_db.git
+[submodule "fontAwesome"]
+	path = fontAwesome
+	url = https://github.com/neilm-fourjs/fontAwesome.git

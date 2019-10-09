@@ -16,6 +16,7 @@ This demo uses imported git repos:
 * git submodule add https://github.com/neilm-fourjs/g2_lib.git g2_lib
 * git submodule add https://github.com/neilm-fourjs/njm_demo_db.git njm_demo_db
 * git submodule add https://github.com/neilm-fourjs/njm_menu.git njm_menu
+* git submodule add https://github.com/neilm-fourjs/fontAwesome.git fontAwesome
 
 If libraries change do:
 * git submodule foreach git pull origin master

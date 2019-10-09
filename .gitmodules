@@ -13,3 +13,6 @@
 [submodule "matDesTest"]
 	path = matDesTest
 	url = https://github.com/neilm-fourjs/matDesTest.git
+[submodule "gbc_app"]
+	path = gbc_app
+	url = https://github.com/neilm-fourjs/gbc_app.git

@@ -18,6 +18,7 @@ This demo uses imported git repos:
 * git submodule add https://github.com/neilm-fourjs/njm_menu.git njm_menu
 * git submodule add https://github.com/neilm-fourjs/fontAwesome.git fontAwesome
 * git submodule add https://github.com/neilm-fourjs/matDesTest.git matDesTest
+* git submodule add https://github.com/neilm-fourjs/gbc_app.git gbc_app
 
 If libraries change do:
 * git submodule foreach git pull origin master

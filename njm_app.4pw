@@ -72,5 +72,6 @@
     <ExtProject filePath="njm_demo_db/njm_demo_db.4pw" id="-2140202056"/>
     <ExtProject filePath="njm_menu/njm_menu.4pw" id="1842157672"/>
     <ExtProject filePath="wc_d3Charts/wc_d3Charts.4pw" id="98525636"/>
+    <ExtProject filePath="widgets/widgets.4pw" id="966826749"/>
   </Group>
 </Project>

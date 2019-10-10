@@ -19,7 +19,9 @@ This demo uses imported git repos:
 * git submodule add https://github.com/neilm-fourjs/fontAwesome.git fontAwesome
 * git submodule add https://github.com/neilm-fourjs/matDesTest.git matDesTest
 * git submodule add https://github.com/neilm-fourjs/gbc_app.git gbc_app
-* git submodule add https://github.com/neilm-fourjs/wc_d3Charts.git
+* git submodule add https://github.com/neilm-fourjs/wc_d3Charts.git wc_d3Charts
+* git submodule add https://github.com/neilm-fourjs/widgets.git widgets
+* git submodule add https://github.com/neilm-fourjs/wizard.git wizard
 
 If libraries change do:
 * git submodule foreach git pull origin master

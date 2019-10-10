@@ -16,6 +16,8 @@ components = \
 	matDesTest \
 	njm_menu \
 	wc_d3Charts \
+	widgets \
+	wizard \
 	gbc_app 
 
 all: $(components)

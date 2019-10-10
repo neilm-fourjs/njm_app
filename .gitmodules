@@ -19,3 +19,9 @@
 [submodule "wc_d3Charts"]
 	path = wc_d3Charts
 	url = https://github.com/neilm-fourjs/wc_d3Charts.git
+[submodule "widgets"]
+	path = widgets
+	url = https://github.com/neilm-fourjs/widgets.git
+[submodule "wizard"]
+	path = wizard
+	url = https://github.com/neilm-fourjs/wizard.git

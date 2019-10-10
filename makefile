@@ -13,10 +13,10 @@ components = \
 	g2_lib \
 	njm_demo_db \
 	fontAwesome \
-	gbc_app \
 	matDesTest \
 	njm_menu \
-	wc_d3Charts
+	wc_d3Charts \
+	gbc_app 
 
 all: $(components)
 	@for component in $^ ; do  \
@@ -25,3 +25,6 @@ all: $(components)
 
 run:
 	cd $(TGT) && fglrun njm_menu.42r	
+
+clean:
+	cd njm_app_bin && rm *.42?

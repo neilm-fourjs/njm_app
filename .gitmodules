@@ -16,3 +16,6 @@
 [submodule "gbc_app"]
 	path = gbc_app
 	url = https://github.com/neilm-fourjs/gbc_app.git
+[submodule "wc_d3Charts"]
+	path = wc_d3Charts
+	url = https://github.com/neilm-fourjs/wc_d3Charts.git

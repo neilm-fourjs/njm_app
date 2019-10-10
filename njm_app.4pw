@@ -64,12 +64,13 @@
   </Settings>
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
-  <Group environment="value:CUSTOM_DB=../../custom_db.json" id="75644415" label="njm_app" language="Genero" targetDirectory="$(ProjectDir)/njm_app_bin">
+  <Group environment="value:FGLIMAGEPATH=..,value:CUSTOM_DB=../../custom_db.json" id="75644415" label="njm_app" language="Genero" targetDirectory="$(ProjectDir)/njm_app_bin">
     <ExtProject filePath="fontAwesome/fontAwesome.4pw" id="-1997425882"/>
     <ExtProject filePath="g2_lib/g2_lib.4pw" id="1198904255"/>
     <ExtProject filePath="gbc_app/gbc_app.4pw" id="760071097"/>
     <ExtProject filePath="matDesTest/matDesTest.4pw" id="599178688"/>
     <ExtProject filePath="njm_demo_db/njm_demo_db.4pw" id="-2140202056"/>
     <ExtProject filePath="njm_menu/njm_menu.4pw" id="1842157672"/>
+    <ExtProject filePath="wc_d3Charts/wc_d3Charts.4pw" id="98525636"/>
   </Group>
 </Project>

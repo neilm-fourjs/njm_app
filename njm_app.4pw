@@ -73,6 +73,8 @@
       <ExtProject filePath="njm_demo_db/njm_demo_db.4pw" id="-2140202056"/>
     </Group>
     <Group id="-1615379432" label="Demos UI">
+      <ExtProject filePath="ipodTree/ipodTree.4pw" id="-1607327778"/>
+      <ExtProject filePath="picFlow/picFlow.4pw" id="708358394"/>
       <ExtProject filePath="widgets/widgets.4pw" id="966826749"/>
       <ExtProject filePath="wizard/wizard.4pw" id="-1765937117"/>
     </Group>

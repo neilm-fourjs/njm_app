@@ -6,6 +6,7 @@
 ../matDesTest/etc
 ../njm_demo_db/etc
 ../njm_menu/etc
+../picFlow/etc
 ../wc_kite/etc
 ../widgets/etc
 ../wizard/etc

@@ -22,6 +22,7 @@ This demo uses imported git repos:
 * git submodule add https://github.com/neilm-fourjs/wc_d3Charts.git wc_d3Charts
 * git submodule add https://github.com/neilm-fourjs/wc_kite.git wc_kite
 * git submodule add https://github.com/neilm-fourjs/ipodTree.git ipodTree
+* git submodule add https://github.com/neilm-fourjs/picFlow.git picFlow
 * git submodule add https://github.com/neilm-fourjs/widgets.git widgets
 * git submodule add https://github.com/neilm-fourjs/wizard.git wizard
 

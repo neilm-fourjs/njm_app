@@ -28,3 +28,6 @@
 [submodule "wc_kite"]
 	path = wc_kite
 	url = https://github.com/neilm-fourjs/wc_kite.git
+[submodule "ipodTree"]
+	path = ipodTree
+	url = https://github.com/neilm-fourjs/ipodTree.git

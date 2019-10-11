@@ -2,6 +2,7 @@
 ../fontAwesome/etc
 ../g2_lib/etc
 ../gbc_app/etc
+../ipodTree/etc
 ../matDesTest/etc
 ../njm_demo_db/etc
 ../njm_menu/etc

@@ -1,4 +1,5 @@
 ../gbc_app/pics
+../ipodTree/pics
 ../njm_menu/pics
 ../pics
 ../widgets/pics

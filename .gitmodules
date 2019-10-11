@@ -31,3 +31,6 @@
 [submodule "ipodTree"]
 	path = ipodTree
 	url = https://github.com/neilm-fourjs/ipodTree.git
+[submodule "picFlow"]
+	path = picFlow
+	url = https://github.com/neilm-fourjs/picFlow.git

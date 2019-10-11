@@ -64,7 +64,7 @@
   </Settings>
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
-  <Group environment="value:BASE=$(ProjectDir)/..,value:FGLIMAGEPATH=$(BASE):$(FGLDIR)/lib/image2font.txt,value:CUSTOM_DB=../../custom_db.json" id="75644415" label="njm_app" language="Genero" targetDirectory="$(ProjectDir)/njm_app_bin">
+  <Group environment="value:FGLRESOURCEPATH=../widgets/etc:../wc_kite/etc,value:BASE=$(ProjectDir)/..,value:FGLIMAGEPATH=$(BASE):$(FGLDIR)/lib/image2font.txt,value:CUSTOM_DB=../../custom_db.json" id="75644415" label="njm_app" language="Genero" targetDirectory="$(ProjectDir)/njm_app_bin">
     <Group id="65666538" label="Application DESKTOP"/>
     <Group id="-645948508" label="Application WEB">
       <ExtProject filePath="gbc_app/gbc_app.4pw" id="760071097"/>

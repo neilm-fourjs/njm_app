@@ -1,0 +1,5 @@
+../gbc_app/pics
+../njm_menu/pics
+../pics
+../widgets/pics
+../wizard/pics

@@ -1,0 +1,10 @@
+../etc
+../fontAwesome/etc
+../g2_lib/etc
+../gbc_app/etc
+../matDesTest/etc
+../njm_demo_db/etc
+../njm_menu/etc
+../wc_kite/etc
+../widgets/etc
+../wizard/etc

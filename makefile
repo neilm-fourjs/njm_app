@@ -16,6 +16,7 @@ components = \
 	matDesTest \
 	njm_menu \
 	wc_d3Charts \
+	wc_kite \
 	widgets \
 	wizard \
 	gbc_app 

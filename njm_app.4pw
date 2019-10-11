@@ -64,14 +64,29 @@
   </Settings>
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
-  <Group environment="value:BASE=$(ProjectDir)/..,value:FGLIMAGEPATH=$(BASE),value:CUSTOM_DB=../../custom_db.json" id="75644415" label="njm_app" language="Genero" targetDirectory="$(ProjectDir)/njm_app_bin">
-    <ExtProject filePath="fontAwesome/fontAwesome.4pw" id="-1997425882"/>
+  <Group environment="value:BASE=$(ProjectDir)/..,value:FGLIMAGEPATH=$(BASE):$(FGLDIR)/lib/image2font.txt,value:CUSTOM_DB=../../custom_db.json" id="75644415" label="njm_app" language="Genero" targetDirectory="$(ProjectDir)/njm_app_bin">
+    <Group id="65666538" label="Application DESKTOP"/>
+    <Group id="-645948508" label="Application WEB">
+      <ExtProject filePath="gbc_app/gbc_app.4pw" id="760071097"/>
+    </Group>
+    <Group id="719190520" label="DB">
+      <ExtProject filePath="njm_demo_db/njm_demo_db.4pw" id="-2140202056"/>
+    </Group>
+    <Group id="-1615379432" label="Demos UI">
+      <ExtProject filePath="widgets/widgets.4pw" id="966826749"/>
+      <ExtProject filePath="wizard/wizard.4pw" id="-1765937117"/>
+    </Group>
+    <Group id="-1486186623" label="Demos WC">
+      <ExtProject filePath="wc_d3Charts/wc_d3Charts.4pw" id="98525636"/>
+      <ExtProject filePath="wc_kite/wc_kite.4pw" id="1960673664"/>
+    </Group>
     <ExtProject filePath="g2_lib/g2_lib.4pw" id="1198904255"/>
-    <ExtProject filePath="gbc_app/gbc_app.4pw" id="760071097"/>
-    <ExtProject filePath="matDesTest/matDesTest.4pw" id="599178688"/>
-    <ExtProject filePath="njm_demo_db/njm_demo_db.4pw" id="-2140202056"/>
-    <ExtProject filePath="njm_menu/njm_menu.4pw" id="1842157672"/>
-    <ExtProject filePath="wc_d3Charts/wc_d3Charts.4pw" id="98525636"/>
-    <ExtProject filePath="widgets/widgets.4pw" id="966826749"/>
+    <Group id="685848946" label="System">
+      <ExtProject filePath="njm_menu/njm_menu.4pw" id="1842157672"/>
+    </Group>
+    <Group id="234085415" label="Utils">
+      <ExtProject filePath="fontAwesome/fontAwesome.4pw" id="-1997425882"/>
+      <ExtProject filePath="matDesTest/matDesTest.4pw" id="599178688"/>
+    </Group>
   </Group>
 </Project>

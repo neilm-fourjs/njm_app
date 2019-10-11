@@ -25,3 +25,6 @@
 [submodule "wizard"]
 	path = wizard
 	url = https://github.com/neilm-fourjs/wizard.git
+[submodule "wc_kite"]
+	path = wc_kite
+	url = https://github.com/neilm-fourjs/wc_kite.git

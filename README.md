@@ -23,6 +23,7 @@ This demo uses imported git repos:
 * git submodule add https://github.com/neilm-fourjs/matDesTest.git matDesTest
 * git submodule add https://github.com/neilm-fourjs/gbc_app.git gbc_app
 * git submodule add https://github.com/neilm-fourjs/wc_d3Charts.git wc_d3Charts
+* git submodule add https://github.com/neilm-fourjs/wc_gauge.git wc_gauge
 * git submodule add https://github.com/neilm-fourjs/wc_kite.git wc_kite
 * git submodule add https://github.com/neilm-fourjs/ipodTree.git ipodTree
 * git submodule add https://github.com/neilm-fourjs/picFlow.git picFlow
@@ -45,10 +46,10 @@ The Demos:
 
 The Web Component Demos:
 * wc_aircraft - Interactive Images - Aricraft catering
-* wc_d3chart - Charting
 * wc_amCharts - Charting
+* wc_d3chart - Charting
 * wc_googleMaps - Google Maps
-* wc_guage - A simple Gauge and a Pie chart
+* wc_gauge - A simple Gauge and a Pie chart
 * wc_kite - Interactive Image - SVG Kite
 * wc_music - Music player
 
@@ -85,25 +86,25 @@ Databases:
 For PostgreSQL
 ```
 sudo -u postgres createuser <appuser>
-sudo -u postgres createdb njm_demo310
+sudo -u postgres createdb njm_demo_db
 sudo -u postgres psql
 psql (9.6.7)
 Type "help" for help.
 
-postgres=# grant all privileges on database njm_demo310 to <appuser>;
+postgres=# grant all privileges on database njm_demo_db to <appuser>;
 GRANT
 postgres=# \q
 ```
 
 or
 ```
-postgres=# \connect njm_demo310;
-You are now connected to database "njm_demo310" as user "postgres".
-njm_demo310=# GRANT UPDATE ON ALL TABLES IN SCHEMA public TO fourjs;
+postgres=# \connect njm_demo_db;
+You are now connected to database "njm_demo_db" as user "postgres".
+njm_demo_db=# GRANT UPDATE ON ALL TABLES IN SCHEMA public TO fourjs;
 GRANT
-njm_demo310=# GRANT INSERT ON ALL TABLES IN SCHEMA public TO fourjs;
+njm_demo_db=# GRANT INSERT ON ALL TABLES IN SCHEMA public TO fourjs;
 GRANT
-njm_demo310=# GRANT DELETE ON ALL TABLES IN SCHEMA public TO fourjs;
+njm_demo_db=# GRANT DELETE ON ALL TABLES IN SCHEMA public TO fourjs;
 GRANT
 ```
 

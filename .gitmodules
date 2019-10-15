@@ -43,3 +43,6 @@
 [submodule "njm_resources"]
 	path = njm_resources
 	url = https://github.com/neilm-fourjs/njm_resources.git
+[submodule "wc_gauge"]
+	path = wc_gauge
+	url = https://github.com/neilm-fourjs/wc_gauge.git

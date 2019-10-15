@@ -1,3 +1,4 @@
+../njm_resources/pics
 ../gbc_app/pics
 ../ipodTree/pics
 ../njm_menu/pics

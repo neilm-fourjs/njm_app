@@ -40,3 +40,6 @@
 [submodule "business_app"]
 	path = business_app
 	url = https://github.com/neilm-fourjs/business_app.git
+[submodule "njm_resources"]
+	path = njm_resources
+	url = https://github.com/neilm-fourjs/njm_resources.git

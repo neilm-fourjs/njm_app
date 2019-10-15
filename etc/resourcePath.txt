@@ -1,3 +1,5 @@
+../business_app/etc
+../dynMaint/etc
 ../etc
 ../fontAwesome/etc
 ../g2_lib/etc

@@ -65,7 +65,9 @@
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
   <Group environment="value:FGLRESOURCEPATH=../widgets/etc:../wc_kite/etc,value:BASE=$(ProjectDir)/..,value:FGLIMAGEPATH=$(BASE):$(FGLDIR)/lib/image2font.txt,value:CUSTOM_DB=../../custom_db.json" id="75644415" label="njm_app" language="Genero" targetDirectory="$(ProjectDir)/njm_app_bin">
-    <Group id="65666538" label="Application DESKTOP"/>
+    <Group id="65666538" label="Application DESKTOP">
+      <ExtProject filePath="business_app/businessApps.4pw" id="1598822526"/>
+    </Group>
     <Group id="-645948508" label="Application WEB">
       <ExtProject filePath="gbc_app/gbc_app.4pw" id="760071097"/>
     </Group>
@@ -82,6 +84,7 @@
       <ExtProject filePath="wc_d3Charts/wc_d3Charts.4pw" id="98525636"/>
       <ExtProject filePath="wc_kite/wc_kite.4pw" id="1960673664"/>
     </Group>
+    <ExtProject filePath="dynMaint/dynMaint.4pw" id="-1262112136"/>
     <ExtProject filePath="g2_lib/g2_lib.4pw" id="1198904255"/>
     <Group id="685848946" label="System">
       <ExtProject filePath="njm_menu/njm_menu.4pw" id="1842157672"/>

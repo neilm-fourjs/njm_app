@@ -34,3 +34,9 @@
 [submodule "picFlow"]
 	path = picFlow
 	url = https://github.com/neilm-fourjs/picFlow.git
+[submodule "dynMaint"]
+	path = dynMaint
+	url = https://github.com/neilm-fourjs/dynMaint.git
+[submodule "business_app"]
+	path = business_app
+	url = https://github.com/neilm-fourjs/business_app.git

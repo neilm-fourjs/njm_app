@@ -12,11 +12,14 @@ export FGLLDPATH=$(TRG):$(GREDIR)/lib
 components = \
 	g2_lib \
 	njm_demo_db \
+	dynMaint \
+	business_app \
 	fontAwesome \
 	matDesTest \
 	njm_menu \
 	wc_d3Charts \
 	wc_kite \
+	ipodTree \
 	widgets \
 	wizard \
 	gbc_app 

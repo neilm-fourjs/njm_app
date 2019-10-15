@@ -16,6 +16,8 @@ This demo uses imported git repos:
 * git submodule add https://github.com/neilm-fourjs/g2_lib.git g2_lib
 * git submodule add https://github.com/neilm-fourjs/njm_demo_db.git njm_demo_db
 * git submodule add https://github.com/neilm-fourjs/njm_menu.git njm_menu
+* git submodule add https://github.com/neilm-fourjs/dynMaint.git dynMaint
+* git submodule add https://github.com/neilm-fourjs/business_app.git business_app
 * git submodule add https://github.com/neilm-fourjs/fontAwesome.git fontAwesome
 * git submodule add https://github.com/neilm-fourjs/matDesTest.git matDesTest
 * git submodule add https://github.com/neilm-fourjs/gbc_app.git gbc_app

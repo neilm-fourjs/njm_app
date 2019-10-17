@@ -1,7 +1,6 @@
 ../njm_resources/etc
 ../business_app/etc
 ../dynMaint/etc
-../etc
 ../fontAwesome/etc
 ../g2_lib/etc
 ../gbc_app/etc

@@ -14,8 +14,6 @@ components = \
 	njm_demo_db \
 	dynMaint \
 	business_app \
-	fontAwesome \
-	matDesTest \
 	njm_menu \
 	wc_d3Charts \
 	wc_gauge \
@@ -23,7 +21,11 @@ components = \
 	ipodTree \
 	widgets \
 	wizard \
-	gbc_app 
+	gbc_app \
+	fontAwesome \
+	matDesTest \
+	showForm \
+
 
 all: $(components)
 	@for component in $^ ; do  \
@@ -32,6 +34,9 @@ all: $(components)
 
 run:
 	cd $(TGT) && fglrun njm_menu.42r	
+
+showform:
+	cd $(TGT) && fglrun showForm.42r ASK
 
 clean:
 	cd njm_app_bin && rm *.42?

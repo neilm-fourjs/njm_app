@@ -12,23 +12,28 @@ $ cd njm_app
 $ make
 ```
 
-This demo uses imported git repos:
+This demo application uses imported git repos:
+Core:
 * git submodule add https://github.com/neilm-fourjs/g2_lib.git g2_lib
 * git submodule add https://github.com/neilm-fourjs/njm_resources.git njm_resources
 * git submodule add https://github.com/neilm-fourjs/njm_demo_db.git njm_demo_db
 * git submodule add https://github.com/neilm-fourjs/njm_menu.git njm_menu
+Demos:
 * git submodule add https://github.com/neilm-fourjs/dynMaint.git dynMaint
 * git submodule add https://github.com/neilm-fourjs/business_app.git business_app
-* git submodule add https://github.com/neilm-fourjs/fontAwesome.git fontAwesome
-* git submodule add https://github.com/neilm-fourjs/matDesTest.git matDesTest
 * git submodule add https://github.com/neilm-fourjs/gbc_app.git gbc_app
-* git submodule add https://github.com/neilm-fourjs/wc_d3Charts.git wc_d3Charts
-* git submodule add https://github.com/neilm-fourjs/wc_gauge.git wc_gauge
-* git submodule add https://github.com/neilm-fourjs/wc_kite.git wc_kite
 * git submodule add https://github.com/neilm-fourjs/ipodTree.git ipodTree
 * git submodule add https://github.com/neilm-fourjs/picFlow.git picFlow
 * git submodule add https://github.com/neilm-fourjs/widgets.git widgets
 * git submodule add https://github.com/neilm-fourjs/wizard.git wizard
+WC Demos:
+* git submodule add https://github.com/neilm-fourjs/wc_d3Charts.git wc_d3Charts
+* git submodule add https://github.com/neilm-fourjs/wc_gauge.git wc_gauge
+* git submodule add https://github.com/neilm-fourjs/wc_kite.git wc_kite
+Utils:
+* git submodule add https://github.com/neilm-fourjs/matDesTest.git matDesTest
+* git submodule add https://github.com/neilm-fourjs/fontAwesome.git fontAwesome
+* git submodule add https://github.com/neilm-fourjs/showForm.git showForm
 
 If libraries change do:
 * git submodule foreach git pull origin master

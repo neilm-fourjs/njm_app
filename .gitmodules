@@ -46,3 +46,6 @@
 [submodule "wc_gauge"]
 	path = wc_gauge
 	url = https://github.com/neilm-fourjs/wc_gauge.git
+[submodule "showForm"]
+	path = showForm
+	url = https://github.com/neilm-fourjs/showForm.git
